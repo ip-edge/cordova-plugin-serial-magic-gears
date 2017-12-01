@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-ChangeRfid",
+  "version": "1.0.2",
+  "description": "Cordova Rfid Plugin",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "local",
+    "url": "cordova-plugin-ChangeRfid"
+  },
+  "keywords": [
+    "cordova",
+    "whitelist",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
