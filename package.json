@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-serial-magic-gears",
+  "version": "0.1.0",
+  "description": "Used to write EPC rfid tags on android using SerialMagic Gears",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "local",
+    "url": "cordova-plugin-serial-magic-gears"
+  },
+  "keywords": [
+    "cordova",
+    "SMG",
+    "rfid",
+    "android",
+    "SerialMagic",
+    "Serialio"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "iP Edge",
+  "license": "open-source"
+}
