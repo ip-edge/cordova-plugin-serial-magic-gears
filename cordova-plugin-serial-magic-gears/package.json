@@ -1,7 +1,7 @@
 {
-  "name": "cordova-plugin-ChangeRfid",
-  "version": "1.0.2",
-  "description": "Cordova Rfid Plugin",
+  "name": "cordova-plugin-serial-magic-gears",
+  "version": "0.1.0",
+  "description": "Used to write EPC rfid tags on android using SerialMagic Gears",
   "cordova": {
     "platforms": [
       "android"
@@ -9,13 +9,15 @@
   },
   "repository": {
     "type": "local",
-    "url": "cordova-plugin-ChangeRfid"
+    "url": "cordova-plugin-serial-magic-gears"
   },
   "keywords": [
     "cordova",
-    "whitelist",
-    "ecosystem:cordova",
-    "cordova-android"
+    "SMG",
+    "rfid",
+    "android",
+    "SerialMagic",
+    "Serialio"
   ],
   "engines": [
     {
@@ -23,6 +25,6 @@
       "version": ">=4.0.0"
     }
   ],
-  "author": "Apache Software Foundation",
-  "license": "Apache 2.0"
+  "author": "iP Edge",
+  "license": "open-source"
 }
