@@ -13,10 +13,6 @@ Installation:
 Install via CLI: 
 cordova-plugin add cordova-plugin-serial-magic-gears 
 
-
-Install Local: 
-Add the plugin to the cordova project,
-
 Usage: 
 Use cordova.exec() while passing through the EPC you want write. 
 Eg. cordova.exec(epcRfid, onSuccessFunction(), onFailureFunction());  
