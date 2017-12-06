@@ -6,9 +6,15 @@ Created by iP Edge.
 Used to write EPC rfid tags on android using SerialMagic Gears.
 
 Description: 
+
 This plugin is used to write RFID Epcs using SerialMagic Gears, and Serialio Scanfobs. 
 It is only available for Android
 
 Installation: 
-After adding the plugin into your project and config.xml, run cordova.exec() passing through the EPC you want write. 
+
+Add the plugin to the cordova project, and use cordova.exec() while passing through the EPC you want write. 
+
+Eg. cordova.exec(epcRfid, onSuccessFunction(), onFailureFunction());  
+
+
 
