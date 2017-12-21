@@ -2,9 +2,9 @@
 /// <reference path="/js/helpers.js" />
 
 var exec = require("cordova/exec");
-rfidScanner = {
+var serialMagicGears = {
 
 	writeEpc: function (epc, onSuccess, onFailure) {
 		exec(onSuccess, onFailure, "EPCWriter", "writeEPC", [epc]);
 	}
-}
+};

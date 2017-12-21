@@ -1,4 +1,4 @@
-package com.ipedge.changerfid;
+package com.ipedge.serialmagic.gears;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -69,8 +69,8 @@ public class EPCWriter extends CordovaPlugin {
         receiver = new BroadcastReceiver(){
             @Override
             public void onReceive(Context context, Intent intent) {
-                String s = intent.getAction();
-                if(s.equals(SM_BCAST_WRITEEPC_RESPONSE)) {
+                String action = intent.getAction();
+                if(action.equals(SM_BCAST_WRITEEPC_RESPONSE)) {
                     if (callbackContext != null){
                         Boolean success = intent.getBooleanExtra("result", false);
 
@@ -90,10 +90,13 @@ public class EPCWriter extends CordovaPlugin {
         contextWrapper.registerReceiver(receiver, filter);
     } 
 
+	public void onReceive(Context content, Intent intent) {
+	
+	}
+
    private void writeEPC(String message) {
         Intent reg = new Intent(SM_BCAST_WRITEEPC);
-        String strEPC = message;
-        reg.putExtra("epc", strEPC);
+        reg.putExtra("epc", message);
 
         contextWrapper.sendBroadcast(reg);
     }
