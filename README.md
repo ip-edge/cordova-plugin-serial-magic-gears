@@ -4,6 +4,8 @@ Created by [iP Edge](https://www.ipedge.net/).
 
 Used to write EPC RFID tags on Android using SerialMagic Gears.
 
+This plugin is hosted on [npm](https://www.npmjs.com/package/cordova-plugin-serial-magic-gears)
+
 ## Description: 
 This plugin is used to write RFID Epcs using SerialMagic Gears, and [Serialio](https://serialio.com/) Scanfobs. 
 As SerialMagic Gears is only available on Android, this plugin will only work for Android. 
